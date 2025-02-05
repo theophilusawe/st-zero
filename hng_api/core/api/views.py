@@ -7,5 +7,5 @@ def api_view(request):
   return JsonResponse({
     'email': "awetheophiluso.1@gmail.com",
     'current_datetime': now().isoformat(),
-    'github_url': 'https://github.com/theophilusawe'
+    'github_url': 'https://github.com/theophilusawe/st-zero'
   })
